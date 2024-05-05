@@ -1,0 +1,55 @@
+body{ 
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.greets{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn{ 
+    background-color: black;
+    padding: 10px;
+    width: 100px;
+    height: 75px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.btn:hover{
+    color: beige;
+    transition: 2s;
+}
+
+#entersmth{ 
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input{ 
+    font-size: 20px;
+    padding: 10px 20px;
+    display: block;
+    width: calc(100%-30px);
+    margin-bottom: 30px;
+}
+
+#input2{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#btn2{ 
+    background-color: black;
+    padding: 10px;
+    width: 100px;
+    height: 75px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
